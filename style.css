@@ -1,0 +1,129 @@
+body
+{
+background-image: url("Images/Benjamin Burnley.jpg");
+/*background: linear-gradient(pink, purple);*/
+/*background-repeat: no-repeat;*/
+background-attachment: fixed;
+background-position: center;
+}
+#img2
+{
+width: 150px;
+margin-left: 600px;
+margin-bottom: 300px;
+transform: rotate(25deg);
+}
+#img3
+{
+width: 200px;
+margin-left: -50px;
+margin-bottom: -85px;
+transform: rotate(-20deg);
+}
+#secondaryBody
+{
+background: linear-gradient(to right, orange, gold);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+#secondaryBody2
+{
+background: linear-gradient(to right, red, purple);
+}
+#MainHeader
+{
+color: orange;
+font-family: Bradley Hand, cursive;
+}
+p
+{
+color: darkblue;
+font-family: Bradley Hand, cursive;
+}
+.title
+{
+color: red;
+}
+.description
+{
+color: green;
+}
+#genres
+{
+color: cyan;
+}
+#secondTitle
+{
+color: gold;
+font-family: Bradley Hand, cursive;
+}
+#thirdTitle
+{
+color: pink;
+font-family: Bradley Hand, cursive;
+}
+iframe
+{
+border-color: red;
+border-width: 5px;
+}
+#box
+{
+transform: rotate(-45deg);
+width: 310px;
+margin-left: 300px;
+}
+#box2
+{
+transform: rotate(25deg);
+width: 310px;
+margin-left: 700px;
+margin-top: -500px;
+}
+body
+{
+background-image: url("Images/Benjamin Burnley.jpg");
+/*background: linear-gradient(pink, purple);*/
+/*background-repeat: no-repeat;*/
+background-attachment: fixed;
+background-position: center;
+}
+#secondaryBody
+{
+background: linear-gradient(to right, orange, gold);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+#MainHeader
+{
+color: orange;
+font-family: Bradley Hand, cursive;
+}
+p
+{
+color: darkblue;
+font-family: Bradley Hand, cursive;
+}
+.title
+{
+color: red;
+}
+.description
+{
+color: green;
+}
+#secondTitle
+{
+color: gold;
+font-family: Bradley Hand, cursive;
+}
+#window1
+{
+border-color: red;
+border-width: 5px;
+}
+#window2
+{
+border-color: blue;
+border-width: 5px;
+}
