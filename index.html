@@ -9,17 +9,45 @@
     <meta name = "keywords" content = "MC1, About Me">
     <meta name = "author" content = "MC1">
     <meta name = "viewport" content = "width = device-width; initial-scale = 1.0">
-    <meta http-equiv = "refresh" content = "60">
+
+    <link rel = "stylesheet" href = "style.css">
   </head>
 
-  <body style = "background-color: pink">
-    <h1>MC1</h1>
+  <body>
+    <h1 id = "MainHeader">MC1</h1>
     <p>Hello! I'm MC1! That's my website, and here you'll find information about me! ^^</p>
     <hr>
-    <img src = "Megumu.png" alt = "Megumu in a swimsuit standing on the beach">
+    <img src = "Images/Megumu.png" alt = "Megumu in a swimsuit standing on the beach">
+    <img id = "img2" src = "Images/Megumu2.jpg" alt = "Megumu Blushing">
+    <img id = "img3" src = "Images/Is the Definition of Hardcore.png" alt = "Siege">
     <br>
-    some information about me :P
     <br>
-    <iframe src = "interests.html">
+    <div id = "box">
+      <span id = "secondTitle">Some information about me :P</span>
+      <br>
+      <iframe id = "window1" src = "interests.html">
+      </iframe>
+    </div>
+    <div id = "box2">
+      <span id = "thirdTitle">My favorite music genres :3</span>
+      <br>
+      <iframe id = "window2" src = "favorite music genres.html">
+      </iframe>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <audio loop id = "audioSample" src = "Audios/Simple Design.mp3">
+    </audio>
+
+    <script>
+      audio = document.getElementById("audioSample");
+      document.addEventListener("pointerdown", () => {audio.play();})
+    </script>
+
   </body>
 </html>
